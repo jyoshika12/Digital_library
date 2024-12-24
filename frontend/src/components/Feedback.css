@@ -1,0 +1,57 @@
+.feedback-section {
+    max-width: 800px; /* Set maximum width for the feedback section */
+    margin: 20px auto; /* Center the section */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 5px; /* Optional: Round corners */
+    background-color: #f9f9f9; /* Optional: Background color */
+}
+
+h2, h3 {
+    text-align: center; /* Center the headings */
+}
+
+textarea {
+    width: 100%; /* Full width */
+    margin-bottom: 15px; /* Space below the textarea */
+    padding: 10px; /* Padding inside textarea */
+    border: 1px solid #ccc; /* Border for textarea */
+    border-radius: 4px; /* Round corners */
+}
+
+.recommendations {
+    display: flex; /* Use flexbox for columns */
+    justify-content: space-between; /* Space between columns */
+    margin-bottom: 15px; /* Space below recommendations */
+}
+
+.recommendation {
+    flex: 1; /* Equal space for both columns */
+    margin: 0 10px; /* Margin between columns */
+}
+
+.recommendation label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+.recommendation input {
+    width: 100%; /* Full width for inputs */
+    padding: 8px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Round corners */
+}
+
+button {
+    width: 100%; /* Full width for button */
+    padding: 10px; /* Padding inside button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Round corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

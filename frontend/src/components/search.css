@@ -1,0 +1,56 @@
+.search-page {
+    height: 100vh; /* Full height */
+    position: relative; /* Positioning for background and content */
+    overflow: hidden; /* Hide any overflow */
+}
+
+/* Solid dark background */
+.background-image {
+    position: absolute; /* Position it absolutely */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    z-index: -1; /* Send it to the back */
+}
+
+.content {
+    position: relative; /* Positioning for content */
+    z-index: 1; /* Ensure it stays above the overlay */
+    color: white; /* Change text color if needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-results {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    flex-wrap: wrap; /* Wrap items to the next line if they overflow */
+    gap: 20px; /* Space between book items */
+}
+
+.book-item {
+    display: flex;
+    flex-direction: column; /* Keep image and title stacked vertically */
+    align-items: center; /* Center items */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px; /* Set a fixed width for each book item */
+}
+
+.book-item img {
+    width: 100%; /* Make image take the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Add some rounding if desired */
+}
+
+h3 {
+    margin: 5px 0 0; /* Space between the image and title */
+    text-align: center; /* Center-align the title */
+}

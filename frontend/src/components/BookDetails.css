@@ -1,0 +1,59 @@
+/* BookDetails.css */
+.book-details {
+  text-align: center; /* Center the text */
+}
+
+.main-cover {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  margin: 20px auto; /* Center with margin */
+  padding: 20px; /* Add padding around the content */
+  border: 1px solid #ccc; /* Optional: border for clarity */
+  border-radius: 8px; /* Optional: rounded corners */
+  background-color: #f9f9f9; /* Optional: background color */
+  max-width: 600px; /* Limit the maximum width */
+}
+
+.main-cover img {
+  max-width: 100%; /* Responsive cover image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Rounded corners for the image */
+  margin-bottom: 20px; /* Space between image and title */
+}
+
+.main-cover h1 {
+  font-size: 2rem; /* Adjust font size */
+  margin: 0; /* Remove default margin */
+  word-wrap: break-word; /* Allow long titles to wrap */
+  overflow-wrap: break-word; /* Prevent overflow by breaking long words */
+  max-width: 90%; /* Ensure title fits within margins */
+}
+
+p {
+  font-size: 1rem; /* Font size for details */
+  margin: 5px 0; /* Vertical spacing for paragraphs */
+}
+
+a {
+  display: inline-block; /* Make the link a block element */
+  margin-top: 15px; /* Space above the link */
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Link color */
+  font-weight: bold; /* Make the back link bold */
+}
+
+/* Optional: Style for the button */
+button {
+  margin-top: 10px; /* Space above the button */
+  padding: 10px 15px; /* Padding for button */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
