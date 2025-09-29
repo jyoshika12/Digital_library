@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Book = require('../models/book'); // Ensure this path is correct
+const Book = require('../models/book'); 
 
 // GET route to fetch all books
 router.get('/', async (req, res) => {
@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
     res.status(200).json(books); // Send the list of books back to the client
   } catch (error) {
     console.error('Error fetching books:', error);
-    res.status(500).json({ error: 'Failed to fetch books' }); // Handle errors
+    res.status(500).json({ error: 'Failed to fetch books' }); 
   }
 });
 
@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   try {
     const book = await Book.findById(req.params.id); // Fetch the book by ID
-    if (!book) return res.status(404).json({ error: 'Book not found' }); // Handle case where book is not found
+    if (!book) return res.status(404).json({ error: 'Book not found' }); 
     res.status(200).json(book); // Send the book details back to the client
   } catch (error) {
     console.error('Error fetching book by ID:', error);
@@ -45,11 +45,9 @@ router.post('/', async (req, res) => {
 
     // Save the new book to the database
     const savedBook = await newBook.save();
-
-    // Return the saved book and a status code of 201 (Created)
     res.status(201).json(savedBook);
   } catch (error) {
-    // Log the error and send a 500 response if there's a failure
+    
     console.error('Error adding book:', error);
     res.status(500).json({ error: 'Failed to add book' });
   }
