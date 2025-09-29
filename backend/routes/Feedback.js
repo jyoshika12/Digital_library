@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Feedback = require('../models/Feedback'); // Import Feedback model
+const Feedback = require('../models/Feedback'); 
 
 // POST route to handle feedback submission
 router.post('/', async (req, res) => {
