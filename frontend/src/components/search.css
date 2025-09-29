@@ -1,24 +1,23 @@
 .search-page {
-    height: 100vh; /* Full height */
-    position: relative; /* Positioning for background and content */
-    overflow: hidden; /* Hide any overflow */
+    height: 100vh;
+    position: relative; 
+    overflow: hidden; 
 }
 
 /* Solid dark background */
 .background-image {
-    position: absolute; /* Position it absolutely */
+    position: absolute; 
     top: 0;
     left: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
-    z-index: -1; /* Send it to the back */
-}
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    z-index: -1;
 
 .content {
-    position: relative; /* Positioning for content */
-    z-index: 1; /* Ensure it stays above the overlay */
-    color: white; /* Change text color if needed */
+    position: relative; 
+    z-index: 1;
+    color: white; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +45,7 @@
 
 .book-item img {
     width: 100%; /* Make image take the full width of the container */
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
     border-radius: 4px; /* Add some rounding if desired */
 }
 
