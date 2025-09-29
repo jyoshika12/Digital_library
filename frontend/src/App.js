@@ -11,7 +11,7 @@ import BookDetails from './components/BookDetails';
 import AddBookDemo from './components/AddBookDemo';
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // Add login state
+  const [isLoggedIn, setIsLoggedIn] = useState(false); 
 
   return (
     <Router>
@@ -22,7 +22,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/search" element={<BookList />} />
         <Route path="/feedback" element={<Feedback />} />
-        <Route path="/book/:id" element={<BookDetails isLoggedIn={isLoggedIn} />} /> {/* Pass isLoggedIn here */}
+        <Route path="/book/:id" element={<BookDetails isLoggedIn={isLoggedIn} />} />
         <Route path="/add-book" element={<AddBookDemo />} />
       </Routes>
     </Router>
