@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import axios from 'axios';
-import backgroundImage from '../images/Digital-Library-1.jpg'; // Adjust path as necessary
+import backgroundImage from '../images/Digital-Library-1.jpg'; 
 
 const SignupContainer = styled.div`
   position: relative;
@@ -101,7 +101,7 @@ const Signup = () => {
         // Request was made but no response received
         setMessage('Signup failed: No response from server');
       } else {
-        // Something happened in setting up the request
+        t
         setMessage('Signup failed: ' + error.message);
       }
       console.error(error);
