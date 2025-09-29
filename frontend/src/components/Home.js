@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import exampleImage from '../images/2 digital-library.jpg'; // Correct import path
+import exampleImage from '../images/2 digital-library.jpg'; 
 
 const HomeContainer = styled.div`
   position: relative;
