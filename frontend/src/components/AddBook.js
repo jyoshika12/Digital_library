@@ -1,7 +1,7 @@
 // frontend/AddBook.js
 
 import React, { useState } from 'react';
-import './AddBook.css'; // Import the CSS file for styling
+import './AddBook.css'; //  CSS file for styling
 
 const AddBook = () => {
   const [formData, setFormData] = useState({
@@ -12,7 +12,7 @@ const AddBook = () => {
     pages: '',
     coverImageUrl: '',
     contentUrl: '',
-    category: 'Computer Science', // Default category
+    category: 'Computer Science', 
   });
 
   const handleChange = (e) => {
@@ -44,7 +44,7 @@ const AddBook = () => {
           pages: '',
           coverImageUrl: '',
           contentUrl: '',
-          category: 'Computer Science', // Reset to default category
+          category: 'Computer Science', 
         });
       } else {
         alert('Error adding book. Please try again.');
