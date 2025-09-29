@@ -1,10 +1,10 @@
 .feedback-section {
     max-width: 800px; /* Set maximum width for the feedback section */
     margin: 20px auto; /* Center the section */
-    padding: 20px; /* Add padding */
-    border: 1px solid #ccc; /* Optional: Add a border */
-    border-radius: 5px; /* Optional: Round corners */
-    background-color: #f9f9f9; /* Optional: Background color */
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
 }
 
 h2, h3 {
