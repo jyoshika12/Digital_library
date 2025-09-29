@@ -1,4 +1,4 @@
-/* BookList.css */
+
 
 .book-list {
   display: flex;
@@ -11,8 +11,8 @@
   margin: 10px; /* Add spacing between book items */
   width: 150px; /* Set a fixed width for each book item */
   text-align: center; /* Center the text */
-  border: 1px solid #ccc; /* Optional: Add a border around each book */
-  border-radius: 4px; /* Optional: Round the corners */
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
   padding: 10px; /* Add padding inside each book item */
   cursor: pointer; /* Change cursor to pointer on hover */
   transition: transform 0.2s; /* Smooth transition for scaling */
@@ -30,7 +30,7 @@
   overflow: hidden; /* Hide any overflow */
   text-overflow: ellipsis; /* Display ellipsis for overflowing text */
   margin: 5px 0; /* Add margin for spacing */
-  padding: 0 5px; /* Add padding for spacing from edges */
+  padding: 0 5px; 
   width: 100%; /* Ensure it takes the full width of the parent */
 }
 
@@ -52,7 +52,7 @@
   padding: 10px;
   cursor: pointer;
   background-color: rgb(145, 62, 62); /* Change to a blue background for visibility */
-  color: white; /* White text for contrast */
+  color: white; 
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s; /* Smooth transition for hover effect */
