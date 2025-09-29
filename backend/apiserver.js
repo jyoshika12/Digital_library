@@ -1,23 +1,23 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const bookRoutes = require('./routes/book'); // Ensure this path is correct
-const Feedback = require('./models/Feedback'); // Import the Feedback model
+const bookRoutes = require('./routes/book'); 
+const Feedback = require('./models/Feedback'); 
 
 const app = express();
-const PORT = process.env.PORT || 5002; // Change to port 5002
+const PORT = process.env.PORT || 5002; 
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/ytbooks') // Replace with your actual database name
+mongoose.connect('mongodb://localhost:27017/ytbooks') 
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error:', err));
 
 // Mount the book routes
-app.use('/api/books', bookRoutes); // Ensure this line is present
+app.use('/api/books', bookRoutes); 
 
 // Feedback POST route
 app.post('/api/feedback', async (req, res) => {
