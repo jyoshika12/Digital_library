@@ -1,7 +1,5 @@
-// Import mongoose
-const mongoose = require('mongoose');
 
-// Define the Feedback schema
+const mongoose = require('mongoose');
 const feedbackSchema = new mongoose.Schema({
   feedback: {
     type: String,
