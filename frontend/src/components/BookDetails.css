@@ -1,4 +1,4 @@
-/* BookDetails.css */
+
 .book-details {
   text-align: center; /* Center the text */
 }
@@ -9,11 +9,10 @@
   align-items: center; /* Center items horizontally */
   margin: 20px auto; /* Center with margin */
   padding: 20px; /* Add padding around the content */
-  border: 1px solid #ccc; /* Optional: border for clarity */
-  border-radius: 8px; /* Optional: rounded corners */
-  background-color: #f9f9f9; /* Optional: background color */
-  max-width: 600px; /* Limit the maximum width */
-}
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  background-color: #f9f9f9; 
+  max-width: 600px; 
 
 .main-cover img {
   max-width: 100%; /* Responsive cover image */
