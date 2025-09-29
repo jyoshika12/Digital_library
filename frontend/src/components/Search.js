@@ -33,7 +33,7 @@ const Search = () => {
   const containerStyle = {
     position: 'relative',
     overflow: 'hidden',
-    height: '100vh', // Make sure the container takes full height
+    height: '100vh', 
   };
 
   const backgroundStyle = {
@@ -42,7 +42,7 @@ const Search = () => {
     left: 0,
     width: '100%',
     height: '100%',
-    backgroundImage: 'url(../images/Digital-Library-1.jpg)', // Adjust this path as necessary
+    backgroundImage: 'url(../images/Digital-Library-1.jpg)', 
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     filter: 'blur(7px)',
