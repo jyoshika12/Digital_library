@@ -53,7 +53,7 @@ const Search = () => {
     position: 'relative',
     zIndex: 1,
     padding: '20px',
-    color: 'white', // Change text color for better contrast
+    color: 'white', 
   };
 
   return (
